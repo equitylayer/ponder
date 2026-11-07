@@ -1,5 +1,11 @@
 # ponder
 
+## 0.18.7
+
+### Patch Changes
+
+- [#2466](https://github.com/ponder-sh/ponder/pull/2466) [`7d53829`](https://github.com/ponder-sh/ponder/commit/7d53829d5954059e11315c34e91f49743b03edcc) Thanks [@kyscott18](https://github.com/kyscott18)! - Fixed a bug that caused a negative `limit` argument in GraphQL plural queries to return every matching row, bypassing the 1000-row maximum. Negative `limit` and `offset` values now return a validation error.
+
 ## 0.18.6
 
 ### Patch Changes
